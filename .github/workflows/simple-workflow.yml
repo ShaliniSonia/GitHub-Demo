@@ -1,14 +1,9 @@
-#name of the workflow
 name: CI Demo 
-
-# define when the action should be triggered is specified in this block
 on:
   push:
     branches: master
   pull_request:
     branches: master
-
-# define the actions to be performed is specified in this block
 jobs:
   build:
     runs-on: windows-latest 
@@ -22,6 +17,4 @@ jobs:
     - name: Run a multi-line script
       run:
         echo Add other actions to build,
-        echo test, and deploy your projct.   
-
-
+        echo test, and deploy your project.   
