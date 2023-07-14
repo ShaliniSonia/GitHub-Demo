@@ -4,9 +4,9 @@ name: CI Demo
 # define when the action should be triggered is specified in this block
 on:
   push:
-    branches: [ master ]
+    branches: master
   pull_request:
-    branches: [ master ]
+    branches: master
 
 # define the actions to be performed is specified in this block
 jobs:
